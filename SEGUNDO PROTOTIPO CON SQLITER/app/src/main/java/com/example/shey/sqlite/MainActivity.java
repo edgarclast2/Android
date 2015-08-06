@@ -12,9 +12,16 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-
+//DECLARAMOS NUESTRAS VARIABLES ET1,ET2
+    //LOS UTILIZAREMO SOLO SERAN LA ET1,ET2
     private EditText et1, et2, et3, et4;
     private Cursor fila;
+
+
+    //$$$$$$DERECHOS DE AUTOR$$$$$$$$:
+    //&&&&&&EDGAR PINEDA CABRERA &&&&&
+    //******UNIVERSIDAD JOSE MARIA ARGUEDAS******
+    //*********INGENIERIA DE SISTEMAS*****
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
