@@ -26,6 +26,9 @@ public class traductor extends MainActivity {
         et1 = (EditText) findViewById(R.id.et1);
         et2 = (EditText) findViewById(R.id.et2);
     }
+    //ESTE TRABJO ESTA REALIZADO POR EDGAR PINEDA CABRERA
+    //UNIVERSIDAD NACIONAL JOSE MARIA ARGUEDAS
+    //INGENIERIA DE SISTEMAS
      //FUNCION DE INSERTAR
 
     public void ingresar(View v){
