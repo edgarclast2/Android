@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingRight="@dimen/activity_horizontal_margin"
 
-    android:background="@mipmap/fondo1"
+    android:background="@mipmap/cholito1"
     >
 
     <TextView
@@ -17,7 +17,7 @@
         android:gravity="top|left"
         android:textColor="#ff161aff"
         android:textStyle="normal|bold|italic"
-        android:textSize="27dp"
+        android:textSize="35dp"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp" />
@@ -39,7 +39,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="INGRESE PALABRA A TRADUCIR:.."
         android:id="@+id/textView2"
-        android:textColor="#ff161aff"
+        android:textColor="#ffff863f"
         android:textStyle="normal|bold|italic"
         android:textSize="27dp"
         android:layout_alignParentTop="true"
@@ -61,11 +61,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="INGRESAR"
+        android:text="GUARDAR***"
         android:id="@+id/btningresar"
         android:textSize="30dp"
         android:textStyle="normal|bold"
-        android:textColor="#ff161aff"
+        android:textColor="#ffff1127"
         android:onClick="ingresar"
         android:layout_above="@+id/button"
         android:layout_toLeftOf="@+id/imageView"
@@ -74,11 +74,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TRADUCIR"
+        android:text="TRADUCIR***"
         android:id="@+id/button"
         android:textSize="30dp"
         android:textStyle="normal|bold"
-        android:textColor="#ff161aff"
+        android:textColor="#fffaff66"
         android:onClick="traducir"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
