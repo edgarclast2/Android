@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     private ImageButton btnsonido;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-       //lanzamenu
+       //lanza el menu
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 btnsonido = (ImageButton)findViewById(R.id.imageButton);
@@ -28,7 +28,9 @@ btnsonido.setOnClickListener(new View.OnClickListener(){
 
 });
 
-
+//++++++++++++++++++++EDGAR PINEDA CABRERA+++++++++++++
+        //+++++++++++UNIVERSIDAD NACIONAL JOSE MARIA ARGUEDAS++++++++++++++++
+        //**************INGENIERIA DE SISTEMAS*****************
 
     }
 

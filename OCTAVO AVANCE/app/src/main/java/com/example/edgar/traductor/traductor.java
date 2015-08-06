@@ -54,7 +54,7 @@ public class traductor extends MainActivity {
     public void traducir(View v){
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "administracion", null,1);
         SQLiteDatabase bd = admin.getWritableDatabase();
-        //traemos la informacion
+        //traemos la informacion  de la que capturamos
         //String palabra1 =et1.getText().toString();
         String[] pala1 =new String[] {et1.getText().toString()};
         //ContentValues registra  = new ContentValues();
@@ -64,10 +64,10 @@ public class traductor extends MainActivity {
                  "select palabra2 from palabras where palabra1 =? "  , pala1);
          if (c.moveToFirst()){
              et2.setText(c.getString(0));
-             Toast.makeText(this,"si Existe la traduccion de la palabra",
+             Toast.makeText(this,"En hora buena Existe la traduccion de la palabra",
                      Toast.LENGTH_SHORT).show();
          } else
-             Toast.makeText(this,"No Existe la traduccion de la palabra",
+             Toast.makeText(this,"¡¡No Existe..!! la traduccion de la palabra",
                      Toast.LENGTH_SHORT).show();
             bd.close();
     }
